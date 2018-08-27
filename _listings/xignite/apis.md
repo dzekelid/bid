@@ -7,11 +7,137 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Bid
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xignite Currencies - Get Historical Cross Rate Tables Bid Ask
+  x-api-slug: gethistoricalcrossratetablesbidask-get
+  description: Returns historical currency cross-rate tables for a range of dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratetablesbidask-get-openapi.md
+- name: Xignite Currencies - Get Historical Cross Rate Table Bid Ask
+  x-api-slug: gethistoricalcrossratetablebidask-get
+  description: Returns a historical currency cross-rate table.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratetablebidask-get-openapi.md
+- name: Xignite Currencies - Get Real Time Cross Rate Table With Bid Ask
+  x-api-slug: getrealtimecrossratetablewithbidask-get
+  description: Returns a real-time currency cross-rate table.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/getrealtimecrossratetablewithbidask-get-openapi.md
+- name: Xignite Currencies - Get Historical Cross Rate Bid Ask
+  x-api-slug: gethistoricalcrossratebidask-get
+  description: Returns a cross-rate with bid/ask as of a historical date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratebidask-get-openapi.md
+- name: Xignite Currencies - Get Historical Cross Rates Bid Ask
+  x-api-slug: gethistoricalcrossratesbidask-get
+  description: Returns multiple cross-rates with bid/ask as of a historical date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratesbidask-get-openapi.md
+- name: Xignite Currencies - Get Historical Cross Rates Bid Ask Range
+  x-api-slug: gethistoricalcrossratesbidaskrange-get
+  description: This operation returns a range of cross-rates for a currency pair.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratesbidaskrange-get-openapi.md
+- name: Xignite Currencies - Get Historical Cross Rates Bid Ask As Of
+  x-api-slug: gethistoricalcrossratesbidaskasof-get
+  description: This operation returns a range of cross-rates for a currency pair.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/gethistoricalcrossratesbidaskasof-get-openapi.md
+- name: Xignite Currencies - Get Official Cross Rate Bid Ask
+  x-api-slug: getofficialcrossratebidask-get
+  description: Returns an official cross-rate as of a historical date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/getofficialcrossratebidask-get-openapi.md
+- name: Xignite Currencies - Get Official Cross Rates Bid Ask
+  x-api-slug: getofficialcrossratesbidask-get
+  description: Returns an official cross-rate as of a historical date.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/bid/master/_listings/xignite/getofficialcrossratesbidask-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/

@@ -1,12 +1,13 @@
+---
 swagger: "2.0"
 x-collection-name: Xignite
-x-complete: 1
+x-complete: 0
 info:
-  title: Xignite VWAP
-  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
+  title: Xignite Currencies Get Historical Cross Rates Bid Ask
+  description: Returns multiple cross-rates with bid/ask as of a historical date.
   version: 1.0.0
-host: www.xignite.com
-basePath: xVWAP.json/XigniteVWAP
+host: www.xignite.com/xCurrencies.json
+basePath: /XigniteCurrencies
 schemes:
 - http
 produces:
@@ -124,90 +125,17 @@ paths:
       - Rates
       - Bid
       - Ask
-  /GetHistoricalCrossRatesBidAskRange:
-    get:
-      summary: Get Historical Cross Rates Bid Ask Range
-      description: This operation returns a range of cross-rates for a currency pair.
-      operationId: postGethistoricalcrossratesbaskrange
-      x-api-path-slug: gethistoricalcrossratesbidaskrange-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Historical
-      - Cross
-      - Rates
-      - Bid
-      - Ask
-      - Range
-  /GetHistoricalCrossRatesBidAskAsOf:
-    get:
-      summary: Get Historical Cross Rates Bid Ask As Of
-      description: This operation returns a range of cross-rates for a currency pair.
-      operationId: postGethistoricalcrossratesbaskasof
-      x-api-path-slug: gethistoricalcrossratesbidaskasof-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Historical
-      - Cross
-      - Rates
-      - Bid
-      - Ask
-      - As
-      - Of
-  /GetOfficialCrossRateBidAsk:
-    get:
-      summary: Get Official Cross Rate Bid Ask
-      description: Returns an official cross-rate as of a historical date.
-      operationId: postGetofficialcrossratebask
-      x-api-path-slug: getofficialcrossratebidask-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Official
-      - Cross
-      - Rate
-      - Bid
-      - Ask
-  /GetOfficialCrossRatesBidAsk:
-    get:
-      summary: Get Official Cross Rates Bid Ask
-      description: Returns an official cross-rate as of a historical date.
-      operationId: postGetofficialcrossratesbask
-      x-api-path-slug: getofficialcrossratesbidask-get
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market Data
-      - Official
-      - Cross
-      - Rates
-      - Bid
-      - Ask
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
